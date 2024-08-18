@@ -1,0 +1,24 @@
+<div class="card mb-3">
+    <div class="emptyBox">
+
+    </div>
+    <div class="contantBox px-3 py-2">
+        <div>
+            <h5 class="card-title text-white">
+                {{data.attributes.name}}
+            </h5>
+            <p class="card-subtitle mb-3">
+                Release Date {{data.attributes.firstReleaseDate | date: "dd/mm/yyyy"}}
+            </p>
+    
+            <p class="card-text">
+                {{data.attributes.summary}}
+            </p>
+        </div>
+        <div class="text-white">
+            <span class="circle bg-primary ms-2">
+                {{(data.attributes.rating/100)*10 | number: '1.0-0'}}
+            </span>
+        </div>
+    </div>
+</div>

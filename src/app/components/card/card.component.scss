@@ -1,0 +1,36 @@
+.card{
+    background-color: #0e1a2b;
+    flex-direction: column;
+    @media(min-width:"576px") {
+        flex-direction: row;
+    }
+    .emptyBox{
+        height: 50px;
+        background-color: #000000;
+        @media(min-width:"576px") {
+            width: 15%;
+            height: auto;
+        }
+    }
+    .contantBox{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        @media(min-width:"576px") {
+            width: 85%;
+        }
+    }
+    p{
+        color: #c1d1e8;
+        font-size: 12px;
+    }
+    .circle{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+    }
+}

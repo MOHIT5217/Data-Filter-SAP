@@ -1,0 +1,25 @@
+.myfilter{
+    .form-group{
+        margin-bottom: 15px;
+    }
+    .wrapper-input{
+        display: flex;
+    }
+    input{
+        background-color: #182c47;
+        border: transparent;
+        color: #c1d1e8;
+    }
+    label{
+        color: #ffffff;
+        font-size: 14px;
+    }
+    button{
+        background-color: #5692e8;
+    }
+    select{
+        background-color: #182c47;
+        border: transparent;
+        color: #ffffff;
+    }
+}
